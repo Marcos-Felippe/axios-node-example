@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Consumindo API com AXIOS</title>
+</head>
+
+<body>
+    <div id="renderApiResult"></div>
+    <hr>
+    <div>
+        <p id="userID"></p>
+        <p id="userNome"></p>
+        <p id="userEmail"></p>
+        <br>
+        <div>Get a user:</div>
+        <div>
+            <input type="number" name="EnterUserId3" id="EnterUserId3" placeholder="id">
+            <button type="submit" id="send-get">Get</button>
+        </div>
+        <br>
+        <div>Add a new user:</div>
+        <div>
+            <input type="text" name="EnterUserName" id="EnterUserName" placeholder="name">
+            <input type="email" name="EnterUserEmail" id="EnterUserEmail" placeholder="email">
+            <button type="submit" id="send">Send</button>
+        </div>
+        <br>
+        <div>Update user:</div>
+        <div>
+            <input type="number" name="EnterUserId" id="EnterUserId" placeholder="id">
+            <input type="text" name="EnterUserName2" id="EnterUserName2" placeholder="name">
+            <input type="email" name="EnterUserEmail2" id="EnterUserEmail2" placeholder="email">
+            <button type="submit" id="send-update">Update</button>
+        </div>
+        <br>
+        <div>Delete user:</div>
+        <div>
+            <input type="number" name="EnterUserId2" id="EnterUserId2" placeholder="id">
+            <button type="submit" id="send-delete">Delete</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+</html>
